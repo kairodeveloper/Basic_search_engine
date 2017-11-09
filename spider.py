@@ -2,7 +2,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-def search(keyword):
+def search(keyword, url, deth):
 
     keyword = keyword.upper()
 
@@ -20,6 +20,6 @@ def search(keyword):
     print(busca)
 
 
-search('google')
-search('login')
-search('Albania')
+search('google','https://google.com',0)
+search('login', 'https://facebook.com',0)
+search('Albania','http://example.webscraping.com/',0)
