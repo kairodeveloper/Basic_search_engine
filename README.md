@@ -1,2 +1,3 @@
-# Spider
-Spider básico "feito" no dia 09/09 de 2017
+# BASIC SEARCH ENGINE
+Basic search engine initiated for programming training.
+Programming Language chosen did the Python.
